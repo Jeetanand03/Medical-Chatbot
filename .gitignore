@@ -1,0 +1,17 @@
+# Environment variables - never commit API keys
+.env
+
+# Vector store (large binary files, regenerate with create_memory_for_llm.py)
+vectorstore/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
